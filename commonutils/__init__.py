@@ -1,6 +1,7 @@
 from .envloader import (
   load as load_env,
-  reload as reload_env
+  reload as reload_env,
+  unload as unload_env
 )
 
 
