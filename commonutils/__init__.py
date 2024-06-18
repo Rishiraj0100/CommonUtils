@@ -7,4 +7,4 @@ from .envloader import (
 
 def _(**kwargs) -> None:
   """Main Function"""
-  load_env(**kwargs.get("load_env",{})
+  load_env(**kwargs.get("load_env",{}))
